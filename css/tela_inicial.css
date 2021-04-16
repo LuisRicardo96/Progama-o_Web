@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "SweetTalk";
+  src: url("../font/SweetTalk.ttf");
+}
+@font-face {
+  font-family: "Schoolwork";
+  src: url("../font/Schoolwork-Regular.ttf");
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.pagina {
+  width: 1000px;
+  margin: 50px auto;
+  color: #1d7240;
+  padding: 50px;
+}
+
+.mrg50B {
+  margin-bottom: 50px;
+}
+.topo {
+  text-align: center;
+  font-family: "Schoolwork";
+  font-size: 10rem;
+}
+.menu {
+  text-align: center;
+  font-family: "SweetTalk";
+  font-size: 1.5rem;
+}
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  width: 215px;
+}
+.menu ul li:hover {
+  background-color: #617954;
+  transition: 0.5s;
+}
+a:link {
+  color: #0000ff;
+}
+a:visited {
+  color: #000000;
+}
+a:hover {
+  color: #f5f0f0;
+}
+
+.atual {
+  text-decoration: underline !important;
+}
+
+.rodape {
+  text-align: center;
+  font-size: 0.9rem;
+}
+#inicio {
+  text-align: center;
+}
+
+#Descrição {
+  text-align: center;
+}
+#perguntas {
+  text-align: justify;
+  line-height: 1.5;
+}
+.foto-principal {
+  border: 5px #ffffff groove;
+  width: 1000px;
+}
+
+body {
+  background-image: url("../img/inicial.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+  background-position: 30% 45%;
+  background-size: coover;
+  background-attachment: scroll;
+}
